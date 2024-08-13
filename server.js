@@ -36,9 +36,16 @@ app.get("/", (req, res) => {
   res.send("ENTER DESIRED MESSAGE HERE");
 });
 
+<<<<<<< HEAD
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on ${PORT}`);
 });
 
 module.exports = app;
+=======
+const PORT = 3000 || process.env.PORT;
+app.listen(PORT, () => {
+  console.log(`Server is running on ${PORT}`);
+});
+>>>>>>> 6f3067070b1cecf506d44451b8fa9b3a3b5b2292
