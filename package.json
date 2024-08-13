@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
-  "name": "express_app",
-=======
-  "name": "express_app_easier",
->>>>>>> 6f3067070b1cecf506d44451b8fa9b3a3b5b2292
+"name": "express_app_easier",
+
   "version": "1.0.0",
   "description": "A basic Express.js application using MariaDB with a simple configuration",
   "main": "server.js",
@@ -62,8 +59,8 @@
     "sequelize": "^6.37.1",
     "uuid": "^9.0.1"
   }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 6f3067070b1cecf506d44451b8fa9b3a3b5b2292
+
+
+
